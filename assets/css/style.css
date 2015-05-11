@@ -1,0 +1,90 @@
+@import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+
+
+.bullshit {
+    max-width: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+    font-size: 120%;
+}
+.bullshit-intro {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 10px #444 solid;
+    margin-bottom: 20px;
+}
+
+
+.bullshit-title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+.bullshit-list {
+    list-style: none;
+    margin: 0; padding: 0;
+}
+.bullshit-list li {
+    display: inline;
+}
+
+
+
+
+
+.bullshit-word {
+    border: 0;
+    background-color: #ffcc00;
+    margin: 5px 5px 5px 0;
+    padding: 5px 20px;
+   -webkit-appearance: none;
+   -moz-appearance:    none;
+   appearance:         none;
+}
+.bullshit-word:hover {
+    background-color: #444;
+    color: #ffcc00;
+    outline:  0;
+}
+.bullshit-word.found,
+.bullshit-word.found:hover {
+    background-color: #eee;
+    color: #aaa;
+    padding-left: 5px
+}
+.bullshit-word.found:before {
+    content: "\1F4A9";
+    /*content: "\2713"; Voir si POO marche :)*/
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* Hold on, this is responsive shit */
+
+
+
+@media(min-width: 700px) {
+    .bullshit {
+        max-width: 800px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
