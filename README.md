@@ -1,8 +1,7 @@
-# Angular 2 Quickstart
+# Bullshit Bingo!
 
-The Angular 2 quickstart includes all of the dependencies for writing Angular 2 in your browser.
+![Snapshot](assets/img/Snapshot.png)
 
-The quickstart contains
- - Pre-built ES5 version of [Angular 2](https://www.npmjs.com/package/angular2) alpha-14
- - Pre-built ES5 version of [rtts-assert](https://www.npmjs.com/package/rtts-assert) alpha-7
- - The es6-shim, which includes Traceur, ES6 Module Loader, System, Zone, and Traceur options for meta-data annotations.
+Based on [Angular2 quickstar](https://github.com/angular/quickstart)
+
+Current state: POC, WIP!
