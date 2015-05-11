@@ -1,0 +1,35 @@
+<style>
+    @import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+    @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+</style>
+<style>
+    .container{
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 200px;
+    }
+    .found{
+        text-decoration: line-through;
+        color : #999999;
+    }
+    .bottom-offset{
+        margin-bottom: 20px;
+    }
+</style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 col-xs-offset-4 btn-group">
+            <!--
+            <div class="bottom-offset">
+                <input type="text" class="form-control" placeholder="Write something here" autofocus #newbingo (keyup)="add($event,newbingo)"/>
+            </div>
+            -->
+            <div *for="#bingo of bingoStore.bingoList">
+                <button (click)="toggleBingoState(bingo)"
+                        class="pull-right btn btn-default"
+                        [class.found]="bingo.found">{{bingo.text}}</button>
+            </div>
+        </div>
+        <div class="col-xs-4"></div>
+    </div>
+</div>
