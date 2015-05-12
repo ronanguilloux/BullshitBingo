@@ -5,6 +5,8 @@ with a point-and-click game app.
 
 ![Snapshot](assets/img/Snapshot.png)
 
+[Demo is here](http://polypodes.github.io/BullshitBingo/)
+
 Based on [Angular2 quickstart](https://github.com/angular/quickstart)
 
 ### Install
