@@ -12,8 +12,7 @@ Based on [Angular2 quickstart](https://github.com/angular/quickstart)
 ### Install
 
 ```bash
-git clone git@github.com:ronanguilloux/BullshitBingo.git
-git clone https://github.com/ronanguilloux/BullshitBingo.git
+git clone https://github.com/polypodes/BullshitBingo.git
 cd BullshitBingo
 npm install http-server -g
 http-server
