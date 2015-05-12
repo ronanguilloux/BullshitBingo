@@ -1,8 +1,8 @@
 export class BingoStore {
     constructor(){
         this.bingoList = [];
-        this.theme = this.defaultTheme = 'Entrepreneuriat, Startup';
-        this.language = this.defaultLanguage = 'fr';
+        this.theme = this.defaultTheme = 'php'; //'Entrepreneuriat, Startup';
+        this.language = this.defaultLanguage = 'en';
         this.dictionaries = {
             'fr': {
                 'Entrepreneuriat, Startup': [
@@ -158,6 +158,32 @@ export class BingoStore {
                     'UX/UI',
                     '(a slide with a GIF Meme)',
                     '(a slide with animated GIF)'
+                ],
+                'php': [
+                    'Doctrine',
+                    'MySQL',
+                    'Dependency Injection',
+                    'PHP7',
+                    'Composer',
+                    'Rasmus',
+                    'Symfony',
+                    'Laravel',
+                    'WordPress',
+                    '$haystack, $needle',
+                    'HipHop',
+                    'HHVM',
+                    'PHP inconsistency',
+                    'Zend',
+                    'error_reporting',
+                    'Performances',
+                    'UTF-8',
+                    'PEAR',
+                    'Clean code',
+                    'Namespace',
+                    'Tests',
+                    'Rest API',
+                    'Industrialization',
+                    'Good practices'
                 ]
             }
 
