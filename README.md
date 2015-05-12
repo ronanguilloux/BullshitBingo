@@ -5,14 +5,15 @@ with a point-and-click game app.
 
 ![Snapshot](assets/img/Snapshot.png)
 
-[Demo is here](http://polypodes.github.io/BullshitBingo/)
+## [Bingo card is here](http://ronanguilloux.github.io/BullshitBingo/)!
 
-Based on [Angular2 quickstart](https://github.com/angular/quickstart)
+- Based on [Angular2 quickstart](https://github.com/angular/quickstart)
+- Forked from [polypodes/Bingobullshit](http://github.com/polypodes/BullshitBingo)
 
 ### Install
 
 ```bash
-git clone https://github.com/polypodes/BullshitBingo.git
+git clone https://github.com/ronanguilloux/BullshitBingo.git
 cd BullshitBingo
 npm install http-server -g
 http-server
